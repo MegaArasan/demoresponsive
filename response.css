@@ -29,16 +29,19 @@ ul{
  .para > ul{
      padding-left: 20px;
      display: block;
+     text-align: center;
  }
 .para > ul > li > span{
     display: block;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 3px;
+    
 }
 .para > ul > li {
     margin-right: 30px;
     font-size: 13px;
+    
 }
 @media (min-width:600px) {
     .layout{
@@ -47,6 +50,8 @@ ul{
     }
     .para > ul  {
         display: flex;
+        align-content:center;
+        justify-content: space-evenly;
         
     }
 }
