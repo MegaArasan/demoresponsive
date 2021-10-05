@@ -1,0 +1,52 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    margin: 0;
+    padding: 0;
+    }
+.layout{
+    background-color:hsl(244, 38%, 16%);
+    color: white;
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+ .work{
+    width: 100%;
+  }
+h1 > span{
+    color: violet;
+}
+ul{
+    list-style: none; 
+}
+.para{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1rem;
+    
+}
+ .para > ul{
+     padding-left: 20px;
+     display: block;
+ }
+.para > ul > li > span{
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.para > ul > li {
+    margin-right: 30px;
+    font-size: 13px;
+}
+@media (min-width:600px) {
+    .layout{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .para > ul  {
+        display: flex;
+        
+    }
+}
